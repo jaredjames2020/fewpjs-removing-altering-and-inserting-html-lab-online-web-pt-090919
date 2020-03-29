@@ -3,6 +3,7 @@
 main.remove()
 
 let newHeader = document.createElement('h1')
+newHeader.setAttribute("id", "Div1");
 newHeader.idName = ('victory');
 document.body.appendChild(newHeader)
 
